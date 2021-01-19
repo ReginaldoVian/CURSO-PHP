@@ -3,9 +3,7 @@
 <h1 center>
 <?php
 echo 'Olá';
-echo '<small>';
 echo ' Mundo!';
-echo '</small>';
 ?>
 </h1>
 
