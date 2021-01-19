@@ -1,6 +1,6 @@
 <div class="titulo">Integração CSS</div>
 
-<h1>
+<h1 center>
 <?php
 echo 'Olá';
 echo '<small>';
@@ -9,10 +9,10 @@ echo '</small>';
 ?>
 </h1>
 
-<?= "<div>Outra forma de me 'expressar'!</div>"?>
+<?= "<div center azul>Outra forma de me 'expressar'!</div>"?>
 
 <br>
-<div><button><?="Legal"?></button></div>
+<div center><button dobro><?="Legal"?></button></div>
 
 <style>
  button{
@@ -21,5 +21,18 @@ echo '</small>';
         color: #EEE;
         font-weight: bold;
         border-radius: 10px;
+ }
+
+ [center]{
+         display: flex;
+         justify-content: center;
+ }
+
+ [azul]{
+         color: #4286f4
+ }
+
+ [dobro]{
+         font-size: 2rem;
  }
  </style>
