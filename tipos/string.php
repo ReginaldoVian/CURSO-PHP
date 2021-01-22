@@ -7,7 +7,8 @@ var_dump("Eu também");
 echo '<br>';
 
 // concatenação
-echo ("Nós também" . ' somos');
+echo ("Nós também" . ' somos' . '<br>');
+echo ("Número é " . 123);
 echo '<br>', "Também aceito", " virgulas";
 
 echo '<br>';
