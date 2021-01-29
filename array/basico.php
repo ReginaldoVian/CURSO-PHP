@@ -6,3 +6,19 @@ echo $lista . '<br>';
 var_dump($lista);
 echo '<br>';
 print_r($lista);
+
+$lista[0] = 1234; // alterado array!
+print_r($lista);
+
+echo '<br>' . $lista[0];
+echo '<br>' . $lista[1];
+echo '<br>' . $lista[2];
+echo '<br>' . $lista[3];
+echo '<br>';
+var_dump($lista[3]);
+
+$texto = 'Esse é um texto de teste'; // O (é) com acento conta 2!
+echo '<br>' . $texto[0];
+echo '<br>' . $texto[2];
+echo '<br>' . $texto[11];
+echo '<br>' . mb_substr($texto, 10 , 1);
