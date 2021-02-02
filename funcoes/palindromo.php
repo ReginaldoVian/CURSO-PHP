@@ -23,6 +23,14 @@ function palindrome($word){
 
 echo palindrome($_POST['caixa']) . '<br>';
 
+// function that reverses the word
+
+function palindromeSimple ($word){
+    return $word === strrev($word) ? 'Yes': 'No';
+}
+
+echo palindrome($_POST['caixa']) . '<br>';
+
 
 //Using If and Else
 // PHP code to check for Palindrome string in PHP 
