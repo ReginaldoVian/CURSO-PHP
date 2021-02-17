@@ -1,4 +1,19 @@
 <nav class="modulos">
+            <div class="modulo vermelho">
+                    <h3>12. Sessão</h3>
+                    <ul>
+                         <li>
+                            <a href="exercicio.php?dir=sessao&file=basico_sessao">
+                               Sessão
+                            </a>
+                        </li>
+                         <li>
+                            <a href="exercicio.php?dir=sessao&file=gerenciando_sessao">
+                               Gerenciando Sessão
+                            </a>
+                        </li>
+                    </ul>
+            </div>
             <div class="modulo verde">
                     <h3>11. Trat. de Erro</h3>
                     <ul>
@@ -15,6 +30,11 @@
                          <li>
                             <a href="exercicio.php?dir=tratamento_erro&file=desafio_intdiv_teste">
                                Desafio intdiv
+                            </a>
+                        </li>
+                         <li>
+                            <a href="exercicio.php?dir=tratamento_erro&file=gerenciador_erro">
+                               Error Handler
                             </a>
                         </li>
                     </ul>
