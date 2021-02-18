@@ -7,14 +7,19 @@ $senha = $_POST['senha'];
 if($_POST['email']){
     $usuarios = [
         [
-            "nome" => "Aluno Cod3r",
-            "email" => "aluno@cod3r.com.br",
-            "senha" => "123456",
+            "nome" => "Maria",
+            "email" => "maria@gmail.com",
+            "senha" => "1234567",
         ],
         [
             "nome" => "Outro Aluno",
             "email" => "outro@email.com.br",
             "senha" => "7654321",
+        ],
+        [
+            "nome" => "Reginaldo",
+            "email" => "reginaldo@hotmail.com",
+            "senha" => "1234567",
         ],
     ];
 
