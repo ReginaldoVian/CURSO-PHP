@@ -30,6 +30,8 @@ if($_POST['email']){
         if($emailValido && $senhaValida){
             $_SESSION['erros'] = null;
             $_SESSION['usuario'] = $usuario['nome'];
+            $exp = time() + 60 * 60 * 24 * 30;
+            setcookie('usuario', $usuario['nome'], $exp);
             header('Location: index.php');
         }
     }
@@ -52,7 +54,7 @@ if($_POST['email']){
     <header class="cabecalho">
         <h1>Curso PHP</h1>
         <h2>Seja Bem Vindo</h2>
-    </header>
+       </header>
     <main class="principal">
         <div class="conteudo">
             <h3>Identifique-se</h3>
