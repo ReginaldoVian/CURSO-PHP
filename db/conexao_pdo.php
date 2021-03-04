@@ -15,4 +15,3 @@ function novaConexao($banco = 'curso_php') {
 }
 
 novaConexao();
-echo "Fim!";
